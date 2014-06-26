@@ -1,0 +1,119 @@
+*, p, li, a, pre, td {
+	font-family: 'Merriweather', serif;
+	line-height: 30px;
+	font-size: 18px;
+	color: $black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	padding-bottom: 20px;
+	text-decoration: none;
+	color: $black;
+}
+
+h1 {
+	font-size: 60px;
+	text-transform: uppercase;
+	line-height: 55px;
+}
+
+h2 {
+	font-size: 40px;
+	line-height: 50px;
+}
+
+h3 {
+	font-size: 30px;
+	font-weight: normal;
+}
+
+h4 {
+	font-size: 30px;
+}
+
+a {
+	color: $blue;
+	text-decoration: none;
+}
+
+p {
+	padding-bottom: 20px;
+}
+
+.firstcharacter {
+	float: left;
+	font-weight: bold;
+	font-size: 60px;
+	line-height: 50px;
+	padding-top: 8px;
+	padding-right: 6px;
+	padding-left: 3px;
+	font-family: 'Merriweather', serif;
+}
+
+p:empty {
+	display: none;
+}
+
+b, strong {
+	font-weight: bold;
+}
+
+i {
+	font-style:italic;
+}
+
+blockquote, blockquote p {
+	font-style:italic;
+	font-size: 25px;
+	line-height: 35px;
+	margin: 20px 0px;
+	margin-left: -8%;
+}
+
+ul {
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+	li {
+		margin-left: 30px;
+		padding-bottom: 20px;
+		list-style-type: disc;
+	}
+}
+
+span.crayon-inline, pre {
+	background-color: #fff;
+	padding: 4px 10px;
+	border: 1px solid $lightgray;
+}
+
+pre {
+	margin-bottom: 30px;
+}
+
+/*.highlight {
+	background-color: $lightblue;
+	padding: 0px 10px;
+	display: block;
+}*/
+
+br {
+	line-height: 0px;
+}
+
+hr {
+	height: 1px;
+	border: 0px;
+	background-color: $lightgray;
+	margin: 20px 0px;
+}
+
+.example {
+	background-color: #fff;
+	padding: 50px 50px 10px 50px;
+	border: 1px solid $lightgray;
+	margin-bottom: 30px;
+}
