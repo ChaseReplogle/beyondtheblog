@@ -17,7 +17,7 @@
 	<aside class="intro_content">
 		<h1><?php the_title(); ?></h1>
 		<p class="time_to_read"><b>Time to Read:</b> 18 Minutes</p>
-		<p><i>The real power of WordPress—the power that allows us to leverage it for more than just blogging—is it’s pre-established functions for easily accessing content from the database and displaying it in custom template files or plugins. These query functions allow us to display and organize content on our terms. They allow us to build complex websites and applications that display content in more interesting and useful ways.</i></p>
+		<p><i>The power of WordPress—the power that allows us to leverage it for more than just blogging—is it’s pre-established functions for easily accessing content from the database and displaying it in custom template files or plugins. These query functions allow us to display and organize content on our terms. They allow us to build complex websites and applications that display content in more interesting and useful ways.</i></p>
 	</aside>
 	<hr>
 	<aside class="title_content">
