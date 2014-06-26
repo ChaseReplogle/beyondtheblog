@@ -28,9 +28,9 @@
 	</section>
 	<aside class="support_content">
 		<img src="http://beyondtheblog.wpengine.com/wp-content/uploads/2014/06/Screen-Shot-2014-06-24-at-10.12.04-PM.png">
-		<p>Author: <a href="#">Chase Replogle</a></p>
-		<p>Posted: <?php the_time('F jS, Y') ?></p>
-		<p>Categories: <a href="#">Queries</a></p>
+		<p><a href="#">Chase Replogle</a></p>
+		<p>Posted <?php the_time('F jS, Y') ?></p>
+		<p><a href="#">Queries</a></p>
 	</aside>
 	<?php endwhile; endif; ?>
 	<footer class="footer">
