@@ -21,7 +21,7 @@
 	</aside>
 	<hr>
 	<aside class="title_content">
-	<a href="#">.</a>
+	<a href="#">..</a>
 	</aside>
 	<section class="main_content">
 		<?php the_content(); ?>
