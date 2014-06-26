@@ -12,6 +12,9 @@
 </head>
 <body <?php body_class(); ?>>
 <div id="wrapper" class="hfeed">
+<nav class="main-menu">
+Test of the Menu
+</nav>
 <header id="header" role="banner">
 <section id="branding" class="clear">
 <div id="site-title"><h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php esc_attr_e( get_bloginfo( 'name' ), 'blankslate' ); ?>" rel="home"><?php echo esc_html( get_bloginfo( 'name' ) ); ?></a><h1></div>
