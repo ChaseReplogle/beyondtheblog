@@ -1,3 +1,14 @@
+.main-menu {
+	background-color: rgb(241, 241, 241);
+	padding: 80px 0px 120px 0px;
+	display: none;
+
+	.main-menu-wrapper {
+		max-width: 1000px;
+		margin: 0 auto;
+	}
+}
+
 .container_wrapper {
 	max-width: 1000px;
 	margin: 0 auto;

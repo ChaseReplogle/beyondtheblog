@@ -4,10 +4,10 @@
 	<h1>About Beyond the Blog</h1>
 	<hr>
 	<div class="about-info">
-		<p><span class="firstcharacter">T</span>he real power of WordPress—the power that allows us to leverage it for more than just blogging—is it’s pre-established functions for easily accessing content from the database and displaying it in custom template files or plugins. These query functions allow us to display and organize content on our terms. They allow us to build complex websites and applications that display content in more interesting and useful ways.</p>
+		<p><span class="firstcharacter">T</span>here is no denying that WordPress has become the largest web publishing platform in the world; powering over 22% of the web. But don't let it's perception fool you. WordPress isn't just for blogs. From powerful content management to mobile and web applications, WordPress is developing into a platform for a lot more than blogging. My goal is to help you build more with WordPress.</p>
 	</div>
 	<div class="about-support">
-		<p>Some sort of support information about the site.</p>
+		<p>Think of this site as a handy guide to building content rich websites and interactive applications with WordPress.</p>
 	</div>
 </div>
 <hr>
@@ -46,19 +46,10 @@
 <section id="main_content" role="main">
 	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 		<a href="<?php the_permalink(); ?>"><h2><?php the_title(); ?></h2></a>
-		<p><b>Time to Read:</b> 18 Minutes</p>
-		<p>The real power of WordPress—the power that allows us to leverage it for more than just blogging—is it’s pre-established functions for easily accessing content from the database and displaying it in custom template files or plugins. These query functions allow us to display and organize content on our terms. They allow us to build complex websites and applications that display content in more interesting and useful ways.</p>
-		<p class="post-meta"><b>Posted:</b> <?php the_time('F jS, Y') ?> | <b>Categories:</b> <a href="#">Queries</a></p>
+		<p><b>Time to Read:</b> <?php the_field('time_to_read'); ?></p>
+		<p><?php the_field('excerpt'); ?></p>
+		<p class="post-meta"><b>Posted:</b> <?php the_time('F jS, Y') ?> | <b>Categories:</b> <?php the_category(', '); ?></p>
 		<hr>
-		<a href="<?php the_permalink(); ?>"><h2><?php the_title(); ?></h2></a>
-		<p><b>Time to Read:</b> 18 Minutes</p>
-		<p>The real power of WordPress—the power that allows us to leverage it for more than just blogging—is it’s pre-established functions for easily accessing content from the database and displaying it in custom template files or plugins. These query functions allow us to display and organize content on our terms. They allow us to build complex websites and applications that display content in more interesting and useful ways.</p>
-		<p class="post-meta"><b>Posted:</b> <?php the_time('F jS, Y') ?> | <b>Categories:</b> <a href="#">Queries</a></p>
-		<hr>
-		<a href="<?php the_permalink(); ?>"><h2><?php the_title(); ?></h2></a>
-		<p><b>Time to Read:</b> 18 Minutes</p>
-		<p>The real power of WordPress—the power that allows us to leverage it for more than just blogging—is it’s pre-established functions for easily accessing content from the database and displaying it in custom template files or plugins. These query functions allow us to display and organize content on our terms. They allow us to build complex websites and applications that display content in more interesting and useful ways.</p>
-		<p class="post-meta"><b>Posted:</b> <?php the_time('F jS, Y') ?> | <b>Categories:</b> <a href="#">Queries</a></p>
 	<?php endwhile; endif; ?>
 
 	<nav class="next_post_nav">
