@@ -137,17 +137,22 @@ hr { height: 1px; border: 0px; background-color: gainsboro; margin: 20px 0px; }
 .crayon-theme-github-updated .crayon-table .crayon-num { display: none; }
 
 @media all and (max-width: 875px) { #site-description { display: none; } }
-@media all and (max-width: 700px) { .categories { width: 100%; }
+@media all and (max-width: 700px) { .categories { width: 100%; margin: 10px 0px; }
   .categories .category_icon { width: 25%; }
-  #main_content { width: 100%; } }
+  #main_content { width: 100%; margin-top: 0px; } }
 @media all and (max-width: 530px) { #footer .footer-wrapper .column { width: 100%; }
-  #footer .footer-wrapper .projects { padding-right: 0px; margin-bottom: 30px; } }
+  #footer .footer-wrapper .projects { padding-right: 0px; margin-bottom: 30px; }
+  .next_post_nav table tr td a.next_post_link, .next_post_nav table tr td a.prev_post_link, .prev_post_nav table tr td a.next_post_link, .prev_post_nav table tr td a.prev_post_link { display: none; }
+  .next_post_nav table tr td a i, .prev_post_nav table tr td a i { width: 100%; text-align: center; } }
 @media all and (max-width: 465px) { .categories { width: 100%; }
   .categories .category_icon { width: 33%; } }
 @media all and (max-width: 390px) { .categories { width: 100%; }
   .categories .category_icon { width: 50%; } }
+@media all and (max-width: 350px) { #header #site-title a { background-image: url("../images/logo-small.png"); width: 180px; height: 45px; }
+  #header .menu { padding-top: 8px; } }
 @media all and (max-width: 650px) { #search { display: none; }
   .about-header h1 { display: none; }
-  .container_wrapper { padding-top: 20px; }
+  .about-header hr { display: none; }
+  .container_wrapper { padding-top: 30px; }
   .container_wrapper .about-header .about-info { width: 100%; }
   .container_wrapper .about-header .about-support { width: 100%; } }
