@@ -38,6 +38,11 @@
 	.support_content {
 		display: none;
 	}
+
+	blockquote, blockquote p {
+		font-size: 18px;
+		margin-left: 0px;
+	}
 }
 
 @media all and (max-width: 530px) {
