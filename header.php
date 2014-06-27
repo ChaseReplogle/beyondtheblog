@@ -13,8 +13,14 @@
 <body <?php body_class(); ?>>
 <div id="wrapper" class="hfeed">
 <nav class="main-menu">
-<div class="main-menu-wrapper">
-Test of the Menu
+<div class="main-menu-wrapper clear">
+	<div class="pages">
+		<a href="#">Articles</a>
+		<a href="#">Snippets</a>
+		<a href="#">About</a>
+		<a href="#">Contact</a>
+		</ul>
+	</div>
 </div>
 </nav>
 <header id="header" role="banner">

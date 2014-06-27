@@ -1,16 +1,32 @@
 .main-menu {
 	background-color: rgb(241, 241, 241);
-	padding: 80px 0px 120px 0px;
+	background: url('../images/groovepaper_dark.png');
+	padding: 80px 0px 80px 0px;
 	display: none;
 
 	.main-menu-wrapper {
 		max-width: 1000px;
 		margin: 0 auto;
 	}
+
+	.pages {
+		a {
+			display: block;
+			color: $black;
+			text-align: center;
+			margin-bottom: 20px;
+
+			&:hover  {
+				text-decoration: underline;
+			}
+		}
+	}
+
 }
 
 .container_wrapper {
 	max-width: 1000px;
+	padding: 0px 5%;
 	margin: 0 auto;
 	position: relative;
 	padding-top: 60px;
@@ -45,6 +61,7 @@
 			p {
 				line-height: 22px;
 				font-size: 14px;
+				font-style: italic;
 			}
 		}
 	}
@@ -123,8 +140,14 @@
 	}
 }
 
+.column {
+	width: 33%;
+	float: left;
+}
+
 #footer {
 	background-color: rgb(241, 241, 241);
+	background: url('../images/groovepaper_dark.png');
 	border-top: 1px solid $lightgray;
 	padding: 80px 0px 120px 0px;
 	margin-top: 60px;
