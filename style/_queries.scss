@@ -21,7 +21,30 @@
 	}
 }
 
+@media all and (max-width: 750px) {
+	.title_content {
+		display: none;
+	}
+
+	.title {
+		display: none;
+	}
+
+	.main_content {
+		padding: 20px 0px;
+		width: 100%;
+	}
+
+	.support_content {
+		display: none;
+	}
+}
+
 @media all and (max-width: 530px) {
+	h1 {
+		font-size: 40px;
+	}
+
 	#footer {
 		.footer-wrapper {
 			.column {

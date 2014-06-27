@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<section id="content" role="main">
+<section id="content" class="clear" role="main">
 	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 	<nav class="next_post_nav">
 	<table>
