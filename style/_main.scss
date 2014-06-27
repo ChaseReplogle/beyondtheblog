@@ -114,9 +114,11 @@
 		text-align: center;
 		margin: 0 auto;
 		font-size: 13px;
+		line-height: 20px;
 		text-transform: uppercase;
 		margin-bottom: 0px;
 		padding-bottom: 5px;
+		padding-top: 5px;
 
 		i {
 			margin: 0 auto;
@@ -154,17 +156,24 @@
 
 	.footer-wrapper {
 		max-width: 1000px;
+		padding: 0px 5%;
 		margin: 0 auto;
 	}
 
+	.projects {
+		padding-right: 10%;
+	}
+
 	.column {
-		width: 33%;
+		width: 50%;
 		float: left;
 
 		img {
 			border: 1px solid $gray;
 			margin-bottom: 20px;
 			opacity: .4;
+			width: 100%;
+			height: auto;
 		}
 
 		p {

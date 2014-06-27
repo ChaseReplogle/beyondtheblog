@@ -14,6 +14,12 @@
 <aside class="categories">
 	<div class="category_icon empty">
 		<a href="#">
+			<p><i class="fa fa-code"></i></p>
+			<p>Code Snipets</p>
+		</a>
+	</div>
+	<div class="category_icon empty">
+		<a href="#">
 			<p><i class="fa fa-database"></i></p>
 			<p>Data Modeling</p>
 		</a>
@@ -28,12 +34,6 @@
 		<a href="#">
 			<p><i class="fa fa-cloud-upload"></i></p>
 			<p>Front End Posting</p>
-		</a>
-	</div>
-	<div class="category_icon empty">
-		<a href="#">
-			<p><i class="fa fa-magic"></i></p>
-			<p>User Interface</p>
 		</a>
 	</div>
 	<div class="category_icon empty">

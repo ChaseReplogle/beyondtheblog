@@ -7,7 +7,7 @@ body { background: url("../images/groovepaper.png"); }
 .clear:after { clear: both; }
 
 #header { position: relative; z-index: 9999999; border-bottom: 1px solid gainsboro; padding: 20px 0px 10px 0px; background: #fff; }
-#header #branding { max-width: 1200px; margin: 0 auto; background: #fff; }
+#header #branding { max-width: 1200px; padding: 0px 5%; margin: 0 auto; background: #fff; }
 #header #site-title h1 { display: inline; }
 #header #site-title a { float: left; background-image: url("../images/logo.jpg"); height: 60px; width: 250px; color: transparent; position: relative; z-index: 999999999; }
 #header #site-description { float: left; line-height: 65px; font-weight: 100; margin-left: 5px; font-family: 'Source Sans Pro', sans-serif; font-style: italic; color: #aaaaaa; }
@@ -120,7 +120,7 @@ hr { height: 1px; border: 0px; background-color: gainsboro; margin: 20px 0px; }
 
 .categories { width: 15%; float: left; margin-top: 40px; margin-bottom: 30px; }
 .categories .category_icon { margin-bottom: 20px; float: left; width: 100%; }
-.categories a, .categories p { text-align: center; margin: 0 auto; font-size: 13px; text-transform: uppercase; margin-bottom: 0px; padding-bottom: 5px; }
+.categories a, .categories p { text-align: center; margin: 0 auto; font-size: 13px; line-height: 20px; text-transform: uppercase; margin-bottom: 0px; padding-bottom: 5px; padding-top: 5px; }
 .categories a i, .categories p i { margin: 0 auto; font-size: 40px; border: 1px solid #424242; padding-top: 25px; height: 90px; width: 90px; border-radius: 100px; }
 .categories .empty a, .categories .empty p, .categories .empty i { color: gainsboro; }
 .categories .empty i { border-color: gainsboro; }
@@ -128,9 +128,26 @@ hr { height: 1px; border: 0px; background-color: gainsboro; margin: 20px 0px; }
 .column { width: 33%; float: left; }
 
 #footer { background-color: #f1f1f1; background: url("../images/groovepaper_dark.png"); border-top: 1px solid gainsboro; padding: 80px 0px 120px 0px; margin-top: 60px; }
-#footer .footer-wrapper { max-width: 1000px; margin: 0 auto; }
-#footer .column { width: 33%; float: left; }
-#footer .column img { border: 1px solid #aaaaaa; margin-bottom: 20px; opacity: .4; }
+#footer .footer-wrapper { max-width: 1000px; padding: 0px 5%; margin: 0 auto; }
+#footer .projects { padding-right: 10%; }
+#footer .column { width: 50%; float: left; }
+#footer .column img { border: 1px solid #aaaaaa; margin-bottom: 20px; opacity: .4; width: 100%; height: auto; }
 #footer .column p { font-size: 15px; line-height: 27px; }
 
 .crayon-theme-github-updated .crayon-table .crayon-num { display: none; }
+
+@media all and (max-width: 875px) { #site-description { display: none; } }
+@media all and (max-width: 700px) { .categories { width: 100%; }
+  .categories .category_icon { width: 25%; }
+  #main_content { width: 100%; } }
+@media all and (max-width: 530px) { #footer .footer-wrapper .column { width: 100%; }
+  #footer .footer-wrapper .projects { padding-right: 0px; margin-bottom: 30px; } }
+@media all and (max-width: 465px) { .categories { width: 100%; }
+  .categories .category_icon { width: 33%; } }
+@media all and (max-width: 390px) { .categories { width: 100%; }
+  .categories .category_icon { width: 50%; } }
+@media all and (max-width: 650px) { #search { display: none; }
+  .about-header h1 { display: none; }
+  .container_wrapper { padding-top: 20px; }
+  .container_wrapper .about-header .about-info { width: 100%; }
+  .container_wrapper .about-header .about-support { width: 100%; } }
