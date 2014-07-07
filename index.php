@@ -8,6 +8,7 @@
 	</div>
 	<div class="about-support">
 		<p>Think of this site as a handy guide to building content rich websites and interactive applications with WordPress.</p>
+		<p><a href="#">Learn More</a></p>
 	</div>
 </div>
 <hr>

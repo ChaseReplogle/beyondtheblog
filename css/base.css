@@ -94,18 +94,19 @@ hr { height: 1px; border: 0px; background-color: gainsboro; margin: 20px 0px; }
 
 .example { background-color: #fff; padding: 7%; border: 1px solid gainsboro; margin-bottom: 30px; }
 
-.main-menu { background-color: #f1f1f1; background: url("../images/groovepaper_dark.png"); padding: 80px 0px 80px 0px; display: none; }
+.main-menu { background-color: #f1f1f1; background: url("../images/groovepaper_dark.png"); padding: 50px 0px 50px 0px; display: none; }
 .main-menu .main-menu-wrapper { max-width: 1000px; margin: 0 auto; }
-.main-menu .pages a { display: block; color: #424242; text-align: center; margin-bottom: 20px; }
-.main-menu .pages a:hover { text-decoration: underline; }
+.main-menu .pages a { display: block; color: #424242; text-align: center; margin-bottom: 20px; font-family: 'Source Sans Pro', sans-serif; font-weight: bold; font-size: 30px; }
+.main-menu .pages a:hover { text-decoration: none; }
 
 .container_wrapper { max-width: 1200px; padding: 0px 5%; margin: 0 auto; position: relative; padding-top: 60px; }
 .container_wrapper .about-header { text-align: left; }
 .container_wrapper .about-header h1 { text-align: center; height: 104px; width: 550px; background: url("../images/logo_bg.png") no-repeat; color: transparent; margin: 0 auto; margin-bottom: 20px; }
-.container_wrapper .about-header .about-info { width: 80%; float: left; }
+.container_wrapper .about-header .about-info { width: 75%; float: left; }
 .container_wrapper .about-header .about-info p { font-family: 'Merriweather', serif; line-height: 30px; }
-.container_wrapper .about-header .about-support { width: 17%; float: right; }
+.container_wrapper .about-header .about-support { width: 22%; float: right; }
 .container_wrapper .about-header .about-support p { line-height: 22px; font-size: 14px; font-style: italic; }
+.container_wrapper .about-header .about-support p a { font-size: 14px; font-style: normal; }
 
 .post-meta { font-family: 'Source Sans Pro', sans-serif; }
 .post-meta a { font-family: 'Source Sans Pro', sans-serif; }
