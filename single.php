@@ -26,11 +26,16 @@
 	<section class="main_content">
 		<?php the_content(); ?>
 	</section>
-	<aside class="support_content">
-		<img src="http://beyondtheblog.wpengine.com/wp-content/uploads/2014/06/Screen-Shot-2014-06-24-at-10.12.04-PM.png">
-		<p><a href="#">Chase Replogle</a></p>
+	<aside class="categories">
+		<div class="support_content">
 		<p>Posted <?php the_time('F jS, Y') ?></p>
-		<p><a href="#">Queries</a></p>
+		<div class="category_icon">
+		<a href="#">
+			<p><i class="fa fa-sort-amount-asc"></i></p>
+			<p>Queries</p>
+		</a>
+		</div>
+		</div>
 	</aside>
 	<?php endwhile; endif; ?>
 	<footer class="footer">

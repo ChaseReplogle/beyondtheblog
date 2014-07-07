@@ -24,7 +24,7 @@ body { background: url("../images/groovepaper.png"); }
 
 .next_post_nav { margin-top: 30px; }
 .next_post_nav table tr td { vertical-align: middle; }
-.next_post_nav table tr td a.next_post_link { color: #aaaaaa; font-size: 18px; line-height: 22px; padding-right: 30px; display: block; width: 90%; float: left; vertical-align: middle; font-family: 'Source Sans Pro', sans-serif; }
+.next_post_nav table tr td a.next_post_link { color: #aaaaaa; font-size: 18px; line-height: 22px; padding: 5px; padding-right: 30px; display: block; width: 90%; float: left; vertical-align: middle; font-family: 'Source Sans Pro', sans-serif; }
 .next_post_nav table tr td i { width: 10%; float: right; vertical-align: middle; padding: 8px; color: #aaaaaa; }
 .next_post_nav table tr td:last-child { text-align: right; }
 
@@ -99,7 +99,7 @@ hr { height: 1px; border: 0px; background-color: gainsboro; margin: 20px 0px; }
 .main-menu .pages a { display: block; color: #424242; text-align: center; margin-bottom: 20px; }
 .main-menu .pages a:hover { text-decoration: underline; }
 
-.container_wrapper { max-width: 1000px; padding: 0px 5%; margin: 0 auto; position: relative; padding-top: 60px; }
+.container_wrapper { max-width: 1200px; padding: 0px 5%; margin: 0 auto; position: relative; padding-top: 60px; }
 .container_wrapper .about-header { text-align: left; }
 .container_wrapper .about-header h1 { text-align: center; height: 104px; width: 550px; background: url("../images/logo_bg.png") no-repeat; color: transparent; margin: 0 auto; margin-bottom: 20px; }
 .container_wrapper .about-header .about-info { width: 80%; float: left; }
@@ -125,10 +125,12 @@ hr { height: 1px; border: 0px; background-color: gainsboro; margin: 20px 0px; }
 .categories .empty a, .categories .empty p, .categories .empty i { color: gainsboro; }
 .categories .empty i { border-color: gainsboro; }
 
+.single .categories .support_content { width: 100%; margin-top: -20px; }
+
 .column { width: 33%; float: left; }
 
 #footer { background-color: #f1f1f1; background: url("../images/groovepaper_dark.png"); border-top: 1px solid gainsboro; padding: 80px 0px 120px 0px; margin-top: 60px; }
-#footer .footer-wrapper { max-width: 1000px; padding: 0px 5%; margin: 0 auto; }
+#footer .footer-wrapper { max-width: 1200px; padding: 0px 5%; margin: 0 auto; }
 #footer .projects { padding-right: 10%; }
 #footer .column { width: 50%; float: left; }
 #footer .column img { border: 1px solid #aaaaaa; margin-bottom: 20px; opacity: .4; width: 100%; height: auto; }
