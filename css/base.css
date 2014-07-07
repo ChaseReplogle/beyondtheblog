@@ -20,7 +20,7 @@ body { background: url("../images/groovepaper.png"); }
 
 #content { max-width: 1200px; padding: 0px 5%; margin: 0 auto; position: relative; overflow: hidden; }
 
-.single .next_post_nav { margin-top: 100px; }
+.single .next_post_nav { margin-top: 50px; }
 
 .next_post_nav { margin-top: 30px; }
 .next_post_nav table tr td { vertical-align: middle; }
@@ -42,7 +42,7 @@ body { background: url("../images/groovepaper.png"); }
 
 .support_content { width: 17%; float: left; margin-top: -40px; }
 .support_content p, .support_content li, .support_content a { font-size: 13px; line-height: 20px; padding-bottom: 5px; text-align: left; font-family: 'Source Sans Pro', sans-serif; }
-.support_content a { color: #079aee; }
+.support_content a { color: #d47f00; }
 .support_content img { width: 100%; height: auto; border-radius: 500px; margin-bottom: 10px; }
 
 table { border-top: 1px solid gainsboro; border-left: 1px solid gainsboro; margin-bottom: 20px; width: 100%; }
@@ -62,7 +62,7 @@ h3 { font-size: 30px; font-weight: normal; }
 
 h4 { font-size: 30px; }
 
-a { color: #079aee; text-decoration: none; }
+a { color: #d47f00; text-decoration: none; }
 
 p { padding-bottom: 20px; }
 

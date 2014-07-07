@@ -28,13 +28,12 @@
 	</section>
 	<aside class="categories">
 		<div class="support_content">
-		<p>Posted <?php the_time('F jS, Y') ?></p>
-		<div class="category_icon">
-		<a href="#">
-			<p><i class="fa fa-sort-amount-asc"></i></p>
-			<p>Queries</p>
-		</a>
-		</div>
+			<div class="category_icon">
+				<a href="#">
+					<p><i class="fa fa-sort-amount-asc"></i></p>
+					<p>Queries</p>
+				</a>
+			</div>
 		</div>
 	</aside>
 	<?php endwhile; endif; ?>
